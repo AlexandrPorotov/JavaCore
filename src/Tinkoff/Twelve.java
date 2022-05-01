@@ -24,6 +24,7 @@ public class Twelve {
             }
         }
 
+
         int count = resultList.size();
         System.out.println(count);
     }

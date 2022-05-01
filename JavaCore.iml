@@ -7,5 +7,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="eclipse.birt.runtime.apache.lucene.core" level="project" />
   </component>
 </module>

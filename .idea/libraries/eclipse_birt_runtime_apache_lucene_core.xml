@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="eclipse.birt.runtime.apache.lucene.core" type="repository">
+    <properties maven-id="org.eclipse.birt.runtime:org.apache.lucene.core:3.5.0.v20120725-1805" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/birt/runtime/org.apache.lucene.core/3.5.0.v20120725-1805/org.apache.lucene.core-3.5.0.v20120725-1805.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
