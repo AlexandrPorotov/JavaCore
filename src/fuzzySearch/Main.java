@@ -2,15 +2,18 @@ package fuzzySearch;
 
 import java.io.*;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
+
 
 public class Main {
 
 
-    private static final String path = "E:\\PROJECTS\\JavaCore\\src\\fuzzySearch\\input.txt";
+    private static final String path = System.getProperty("user.dir")+ "\\input.txt";
     private static List<String> firstList;
     private static List<String> secondList;
     private static String containsString;
@@ -28,13 +31,13 @@ public class Main {
     }
 
     public static List<String> readFile(String filePath) throws IOException {
-
-       return  Files.readAllLines(Paths.get(filePath));
+        System.out.println(path);
+        return  Files.readAllLines(Paths.get(filePath));
 
     }
 
     public static void writeFile(List<String> inputList) throws IOException {
-        FileWriter writer = new FileWriter("output.txt");
+        FileWriter writer = new FileWriter("src/files/output.txt");
         for(String s: inputList) {
             writer.write(s + System.lineSeparator());
         }
